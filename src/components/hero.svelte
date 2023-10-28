@@ -1,9 +1,14 @@
-<div class="hero min-h-screen bg-base-400">
-    <div class="hero-content text-center">
+<script>
+  import ScrollToElement from "./scrollToElement.svelte";
+</script>
+
+
+<div class="min-h-screen hero bg-base-400">
+    <div class="text-center hero-content">
       <div class="max-w-md">
         <h1 class="text-5xl font-bold">Hi, I'm Reef</h1>
-        <p class="py-6">A Software Engineering student dying to dive into the industry, thanks for checking me out!</p>
-        <button class="btn btn-primary">See what I'm all about</button>
+        <p class="px-12 py-6">A Sheffield Software Student looking to make his way into the industry!</p>
+        <ScrollToElement targetId="work" buttonContent="See what I'm all about!"/>
       </div>
     </div>
   </div>
