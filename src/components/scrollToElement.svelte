@@ -1,4 +1,7 @@
 <script>
+  import { fade } from "svelte/transition";
+
+
   export let targetId;
   export let buttonContent;
 
@@ -11,6 +14,6 @@
   }
 </script>
 
-<button class="btn btn-primary" on:click={scrollIntoView}
+<button class="btn btn-primary" in:fade={{ delay: 250, duration: 300 }}  on:click={scrollIntoView}
   >{buttonContent}</button
 >
