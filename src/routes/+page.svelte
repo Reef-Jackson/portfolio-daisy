@@ -19,7 +19,7 @@
     desc3="Even more explanation"
     imageLink="ImageLink Here"
 />
-<Section title="Technology I can and have used!" />
+<Section title="My Technology" />
 <MyTech />
 
 

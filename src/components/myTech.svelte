@@ -3,11 +3,11 @@
   href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
 />
 
-<div class="flex flex-col m-auto w-2/4 h-80">
+<div class="flex flex-col m-auto h-80 sm:w-72 m:w-full lg:w-full">
   <div
-    class="grid place-items-center mx-7 mb-10 card bg-base-300 rounded-box h-fit"
+    class="grid self-center place-items-center mx-7 mb-10 card bg-base-300 rounded-box h-fit w-fit"
   >
-    <div class="flex flex-wrap gap-2 justify-center m-4 h-fit">
+    <div class="flex flex-wrap gap-2 justify-center m-4 h-fit sm:w-full">
       <button class="hover:bg-orange-600 btn">
         <i class="devicon-svelte-plain" /></button
       >
@@ -77,6 +77,7 @@
   }
 
   i {
-    font-size: 2.1rem;
+    font-size: 2.1rem; 
+	/* This is done to resize the dev icons, I'm not crazy I promise! */
   }
 </style>
