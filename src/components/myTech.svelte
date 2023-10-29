@@ -8,28 +8,28 @@
     class="grid self-center place-items-center mx-7 mb-10 card bg-base-300 rounded-box h-fit w-fit"
   >
     <div class="flex flex-wrap gap-2 justify-center m-4 h-fit sm:w-full">
-      <button class="hover:bg-orange-600 btn">
+      <button class="tooltip tooltip-bottom hover:bg-orange-600 btn" data-tip="Svelte">
         <i class="devicon-svelte-plain" /></button
       >
-      <button class="hover:bg-indigo-400 btn">
+      <button class="tooltip tooltip-bottom hover:bg-indigo-400 btn" data-tip="PHP">
         <i class="devicon-php-plain" /></button
       >
-      <button class="hover:bg-lime-300 btn">
+      <button class="tooltip tooltip-bottom hover:bg-lime-300 btn" data-tip="NodeJS">
         <i class="devicon-nodejs-plain" /></button
       >
-      <button class="hover:bg-amber-300 btn">
+      <button class="tooltip tooltip-bottom hover:bg-amber-300 btn" data-tip="JavaScript">
         <i class="devicon-javascript-plain" /></button
       >
-      <button class="btn hover:bg-cyan-600">
+      <button class="tooltip tooltip-bottom btn hover:bg-cyan-600" data-tip="Tailwind CSS">
         <i class="devicon-tailwindcss-plain" /></button
       >
-	  <button class="btn hover:bg-orange-500">
+	  <button class="tooltip tooltip-bottom btn hover:bg-orange-500" data-tip="HTML5">
 		<i class="devicon-html5-plain"></i>
 	  </button>
-      <button class="btn hover:bg-cyan-300">
+      <button class="tooltip tooltip-bottom btn hover:bg-cyan-300" data-tip="CSS">
         <i class="devicon-css3-plain" /></button
       >
-      <button class="btn hover:bg-amber-200"
+      <button class="tooltip tooltip-bottom btn hover:bg-amber-200" data-tip="PocketBase"
         ><svg
           width="35px"
           height="35px"
@@ -58,13 +58,13 @@
           </g>
         </svg></button
       >
-      <button class="btn hover:bg-cyan-600">
+      <button class="tooltip tooltip-bottom btn hover:bg-cyan-600" data-tip="SQLite">
         <i class="devicon-sqlite-plain" /></button
       >
-      <button class="btn hover:bg-teal-800">
+      <button class="tooltip tooltip-bottom btn hover:bg-teal-800" data-tip="MySQL">
         <i class="devicon-mysql-plain" /></button
       >
-      <button class="btn hover:bg-slate-700">
+      <button class="tooltip tooltip-bottom btn hover:bg-slate-700" data-tip="Bash">
         <i class="devicon-bash-plain" /></button
       >
     </div>

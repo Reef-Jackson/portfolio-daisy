@@ -14,6 +14,6 @@
   }
 </script>
 
-<button class="btn btn-primary" in:fade={{ delay: 250, duration: 300 }}  on:click={scrollIntoView}
+<button class="text-white btn bg-info" on:click={scrollIntoView}
   >{buttonContent}</button
 >
