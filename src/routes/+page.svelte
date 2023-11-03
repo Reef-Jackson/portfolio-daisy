@@ -16,8 +16,9 @@
     p2="I have a strong foundation in various programming languages, including PHP, C#, NodeJS, SvelteKit, PocketBase, SQL, CSS, HTML, and Tailwind. In addition to my passion for coding, I enjoy Warhammer 40K, Star Wars, and personal programming projects! (You'll see these in a minute)!"
 />
 <AboutMe title="Some technology I use:" p1="This is technology that I'm very familiar with, there are other frameworks and languages I'm actively learning, and they'll hopefully make it here soon!" p2="This website was actually made with Tailwind and SvelteKit!"/>
-<section id="work"></section>
+
 <MyTech />
+<section id="work"></section>
 <WorkItem />
 
 
